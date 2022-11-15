@@ -233,7 +233,7 @@ echo -e "\033[0;36m╔─━━━━━━━━━━━━━━━━━━�
 tput setaf 7
 tput setab 4
 tput bold
-printf '%70s%s%-18s\n'    "• ❖GRUPO JENKEN❖ •"
+printf '%100s%s%-10s\n'    "• ❖GRUPO JENKEN❖ •"
 tput sgr0
 echo -e "\033[0;36m╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝\033[0m"
 echo -e "\033[1;32mSISTEMA            MEMORIA RAM        PROCESADOR "
