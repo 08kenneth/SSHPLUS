@@ -2128,7 +2128,7 @@ exit 0' >$RCLOCAL
 			echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 			echo ""
 			tput civis
-			echo -ne "\033[0;36mQUE DESEJA HACER \033[0;34m?\033[0;34m?\033[1;37m :"
+			echo -ne "\033[0;36mQUE DESEA HACER \033[0;34m?\033[0;34m?\033[1;37m :"
 			read x
 			tput cnorm
 			clear
@@ -2171,13 +2171,13 @@ exit 0' >$RCLOCAL
 				menu
 				;;
 			0 | 00)
-				echo -e "\033[1;31mSaindo...\033[0m"
+				echo -e "\033[1;31mSaliendo...\033[0m"
 				sleep 2
 				clear
 				exit
 				;;
 			*)
-				echo -e "\033[1;31mOpcao invalida !\033[0m"
+				echo -e "\033[1;31mOpcion invalida !\033[0m"
 				sleep 2
 				;;
 			esac
