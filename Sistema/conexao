@@ -2105,7 +2105,7 @@ exit 0' >$RCLOCAL
 			echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 			echo ""
 			tput civis
-			echo -ne "\033[0;36mQUE DESEA HACER \033[0;34m?\033[0;34m?\033[1;37m "
+			echo -ne "\033[0;36mQUE DESEA HACER \033[0;34m?\033[0;34m?\033[1;37m :"
 			read x
 			tput cnorm
 			clear
