@@ -1,5 +1,5 @@
 #!/bin/bash
-tput setaf 7 ; tput setab 4 ; tput bold ; printf '%33s%s%-12s\n' "Mudar data de expiração" ; tput sgr0
+tput setaf 7 ; tput setab 4 ; tput bold ; printf '%33s%s%-12s\n' "Cambiar fecha de vencimiento" ; tput sgr0
 echo ""
 echo -e "\033[1;33m LISTA DE USUARIOS Y FECHA DE VENCIMIENTO:\033[0m "
 echo ""
