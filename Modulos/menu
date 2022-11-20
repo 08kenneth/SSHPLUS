@@ -467,7 +467,7 @@ case "$x" in
    badvpn
    ;;
    19)
-   initcheck
+   .criar
    ;;
    20)
    clear
